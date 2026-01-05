@@ -6,6 +6,7 @@ This platform is designed for **climate researchers, policymakers, and environme
 ## Features
 
 ### 1. Adaptive Data Structure Engine (DSA-Focused)
+
 - Implements advanced data structures:
   - **Segment Trees / Fenwick Trees**: Efficient range queries for temperature and rainfall.
   - **Heaps / Priority Queues**: Identify top-k extreme events quickly.
@@ -15,17 +16,20 @@ This platform is designed for **climate researchers, policymakers, and environme
 - Self-adapting: Dynamically switches data structures for evolving datasets.
 
 ### 2. AI-Powered Extreme Event Prediction
+
 - Predicts floods, heatwaves, storms, and droughts.
 - Uses **time-series models** (LSTM, Temporal Convolutional Networks) and **feature-based ML models** (Random Forest, XGBoost).
 - Optional: Integrates **satellite imagery analysis** using CNNs.
 - AI module recommends optimal DS for fast computation on large datasets.
 
 ### 3. Data Science Insights
+
 - Visualizations of trends over years/decades for temperature, rainfall, wind speed, CO₂ levels.
 - Heatmaps and correlation plots to identify high-risk regions.
 - Compare performance metrics across different data structures.
 
 ### 4. Software Engineering & Dashboard
+
 - Modular backend: DSA engine, AI prediction, analytics, visualization modules.
 - Frontend dashboard (Streamlit / React.js):
   - Upload datasets
@@ -34,6 +38,7 @@ This platform is designed for **climate researchers, policymakers, and environme
 - Version-controlled logs and metrics for maintainability and scalability.
 
 ## Workflow
+
 1. **Data Ingestion**: Upload historical climate datasets (CSV, JSON, NetCDF) or stream live sensor data.
 2. **DSA Optimization**: System simulates multiple data structures and measures performance.
 3. **Metrics Collection**: Runtime, memory, query efficiency.
@@ -41,6 +46,7 @@ This platform is designed for **climate researchers, policymakers, and environme
 5. **Data Visualization**: Trends, correlations, performance metrics, and predicted events displayed on the dashboard.
 
 ## Tech Stack
+
 - **Backend:** Python (FastAPI / Flask)
 - **Data Structures:** Segment Trees, Fenwick Trees, Heaps, Graphs, Tries, Hash Maps
 - **AI/ML:** LSTM, Temporal Convolutional Networks, Random Forest, XGBoost, optional CNN
@@ -49,6 +55,7 @@ This platform is designed for **climate researchers, policymakers, and environme
 - **Database:** SQLite / PostgreSQL / MongoDB
 
 ## Advanced Features
+
 - Real-time climate sensor integration for live prediction.
 - Graph Neural Networks for modeling regional climate dependencies.
 - Self-optimizing DS engine that adapts to new data patterns.
