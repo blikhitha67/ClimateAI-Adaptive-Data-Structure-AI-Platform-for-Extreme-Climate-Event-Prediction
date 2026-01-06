@@ -1,4 +1,8 @@
-## Overview
+# ClimateAI-Adaptive-Data-Structure-AI-Platform-for-Extreme-Climate-Event-Prediction
+
+
+## Project Overview
+
 **ClimateAI** is a cutting-edge platform that combines **Data Structures & Algorithms (DSA)**, **Artificial Intelligence (AI)**, **Data Science**, and **Software Engineering** to efficiently store, analyze, and predict extreme climate events. The system dynamically selects the most suitable data structures for large-scale climate datasets and provides AI-powered predictions for floods, heatwaves, storms, and droughts.  
 
 This platform is designed for **climate researchers, policymakers, and environmental organizations**, providing actionable insights, performance-optimized analytics, and interactive visualizations.
